@@ -1,0 +1,81 @@
+$color-first: #173a56;
+$color-second: #22343d;
+$color-third: #bcd0e5;
+$color-fourth: #02897a;
+
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  font-family: Poppins, sans-serif;
+  header {
+    padding: 20px 0;
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        span {
+          font-size: 30px;
+          font-weight: 700;
+          color: $color-first;
+        }
+      }
+      &-links {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        .sign {
+          padding: 10px 23px;
+          font-weight: 600;
+          border-radius: 6px;
+          cursor: pointer;
+          &.in {
+            border: 1px solid $color-third;
+            color: $color-first;
+            background-color: transparent;
+          }
+          &.up {
+            border: 1px solid $color-fourth;
+            color: #fff;
+            background-color: $color-fourth;
+          }
+        }
+        .btn-dark {
+          border: 0;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+      &-link {
+        font-size: 16px;
+        font-weight: 500;
+        color: $color-second;
+        &:hover {
+          font-weight: 600;
+        }
+      }
+      &-link_1 {
+        font-weight: 600;
+      }
+    }
+  }
+}

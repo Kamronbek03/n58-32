@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+body header {
+  padding: 20px 0;
+}
+body header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+body header .nav .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #173a56;
+}
+body header .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+body header .nav-links .sign {
+  padding: 10px 23px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+body header .nav-links .sign.in {
+  border: 1px solid #bcd0e5;
+  color: #173a56;
+  background-color: transparent;
+}
+body header .nav-links .sign.up {
+  border: 1px solid #02897a;
+  color: #fff;
+  background-color: #02897a;
+}
+body header .nav-links .btn-dark {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+body header .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #22343d;
+}
+body header .nav-link:hover {
+  font-weight: 600;
+}
+body header .nav-link_1 {
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
