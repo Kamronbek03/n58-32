@@ -79,6 +79,7 @@ body header .nav-link_1 {
 }
 body main .hero {
   padding: 25px 0;
+  margin-bottom: 90px;
 }
 body main .hero-content {
   display: flex;
@@ -121,4 +122,75 @@ body main .hero-btns a span {
   font-weight: 600;
   line-height: 24px;
   border-bottom: 2px solid #02897a;
+}
+body main .part-1 {
+  padding-bottom: 90px;
+  margin-bottom: 150px;
+}
+body main .part-1 h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #22343d;
+  text-align: center;
+  padding: 0 300px;
+  margin-bottom: 66px;
+}
+body main .part-1 .cards {
+  display: flex;
+  justify-content: space-between;
+}
+body main .part-1 .cards .card {
+  max-width: 240px;
+}
+body main .part-1 .cards .card h6 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 30px 0 13px 0;
+  color: #22343d;
+}
+body main .part-1 .cards .card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #22343d;
+}
+body main .part-1 a {
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+}
+body main .part-1 a button {
+  padding: 15px 33px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #02897a;
+}
+body main .part-2 {
+  margin-bottom: 150px;
+}
+body main .part-2 .content {
+  display: flex;
+  justify-content: space-between;
+}
+body main .part-2 .content .text-content {
+  max-width: 486px;
+}
+body main .part-2 .content .text-content h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #22343d;
+  margin-bottom: 12px;
+}
+body main .part-2 .content .text-content h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #22343d;
+  margin-bottom: 23px;
+}
+body main .part-2 .content .text-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #22343d;
 }/*# sourceMappingURL=style.css.map */
