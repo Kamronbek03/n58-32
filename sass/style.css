@@ -76,4 +76,49 @@ body header .nav-link:hover {
 }
 body header .nav-link_1 {
   font-weight: 600;
+}
+body main .hero {
+  padding: 25px 0;
+}
+body main .hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .hero-text {
+  color: #22343d;
+}
+body main .hero-text h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+body main .hero-text p {
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+body main .hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+body main .hero-btns button {
+  padding: 10px 23px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #02897a;
+  color: #fff;
+  background: #02897a;
+}
+body main .hero-btns a {
+  display: flex;
+  align-items: center;
+  gap: 8.5px;
+}
+body main .hero-btns a span {
+  color: #02897a;
+  font-weight: 600;
+  line-height: 24px;
+  border-bottom: 2px solid #02897a;
 }/*# sourceMappingURL=style.css.map */
